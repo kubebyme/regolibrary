@@ -216,7 +216,9 @@ if __name__ == '__main__':
     frameworks, frameworks_list = load_frameworks(loaded_controls=controls)
     default_config_inputs = load_default_config_inputs()
     attack_tracks_list = load_attack_tracks()
-    exceptions_list = load_exceptions()
+
+    # TODO: fix exceptions report before publishing it once again
+    # exceptions_list = load_exceptions()
 
     # create full framework json files
     # TODO - delete when kubescape works with csv files
